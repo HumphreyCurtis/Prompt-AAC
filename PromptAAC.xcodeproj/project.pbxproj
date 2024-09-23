@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17AD28B2BAD80C900DD1AB9 /* PromptAACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD28A2BAD80C900DD1AB9 /* PromptAACApp.swift */; };
+		A17AD28D2BAD80C900DD1AB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD28C2BAD80C900DD1AB9 /* ContentView.swift */; };
+		A17AD28F2BAD80C900DD1AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17AD28E2BAD80C900DD1AB9 /* Assets.xcassets */; };
+		A17AD2922BAD80C900DD1AB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17AD2912BAD80C900DD1AB9 /* Preview Assets.xcassets */; };
+		A17AD2982BAD80CA00DD1AB9 /* PromptAAC Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A17AD2972BAD80CA00DD1AB9 /* PromptAAC Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A17AD29D2BAD80CA00DD1AB9 /* PromptAACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD29C2BAD80CA00DD1AB9 /* PromptAACApp.swift */; };
+		A17AD29F2BAD80CA00DD1AB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD29E2BAD80CA00DD1AB9 /* ContentView.swift */; };
+		A17AD2A12BAD80CA00DD1AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17AD2A02BAD80CA00DD1AB9 /* Assets.xcassets */; };
+		A17AD2A42BAD80CA00DD1AB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17AD2A32BAD80CA00DD1AB9 /* Preview Assets.xcassets */; };
+		A17AD2B12BAD88A000DD1AB9 /* AudioPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD2B02BAD88A000DD1AB9 /* AudioPromptView.swift */; };
+		A17AD2B32BAD9AE700DD1AB9 /* EditAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AD2B22BAD9AE700DD1AB9 /* EditAudioView.swift */; };
+		A1B1F4692BBB06510043B995 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1F4682BBB06510043B995 /* Expression.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17AD2992BAD80CA00DD1AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17AD27F2BAD80C900DD1AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17AD2962BAD80CA00DD1AB9;
+			remoteInfo = "PromptAAC Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A17AD2AA2BAD80CA00DD1AB9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A17AD2982BAD80CA00DD1AB9 /* PromptAAC Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A17AD2872BAD80C900DD1AB9 /* PromptAAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromptAAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17AD28A2BAD80C900DD1AB9 /* PromptAACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptAACApp.swift; sourceTree = "<group>"; };
+		A17AD28C2BAD80C900DD1AB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A17AD28E2BAD80C900DD1AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17AD2912BAD80C900DD1AB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17AD2972BAD80CA00DD1AB9 /* PromptAAC Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PromptAAC Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17AD29C2BAD80CA00DD1AB9 /* PromptAACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptAACApp.swift; sourceTree = "<group>"; };
+		A17AD29E2BAD80CA00DD1AB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A17AD2A02BAD80CA00DD1AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17AD2A32BAD80CA00DD1AB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17AD2B02BAD88A000DD1AB9 /* AudioPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPromptView.swift; sourceTree = "<group>"; };
+		A17AD2B22BAD9AE700DD1AB9 /* EditAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAudioView.swift; sourceTree = "<group>"; };
+		A1B1F4682BBB06510043B995 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17AD2842BAD80C900DD1AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17AD2942BAD80CA00DD1AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17AD27E2BAD80C900DD1AB9 = {
+			isa = PBXGroup;
+			children = (
+				A17AD2892BAD80C900DD1AB9 /* PromptAAC */,
+				A17AD29B2BAD80CA00DD1AB9 /* PromptAAC Watch App */,
+				A17AD2882BAD80C900DD1AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17AD2882BAD80C900DD1AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17AD2872BAD80C900DD1AB9 /* PromptAAC.app */,
+				A17AD2972BAD80CA00DD1AB9 /* PromptAAC Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17AD2892BAD80C900DD1AB9 /* PromptAAC */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1F4672BBB06300043B995 /* Data */,
+				A17AD28A2BAD80C900DD1AB9 /* PromptAACApp.swift */,
+				A17AD28C2BAD80C900DD1AB9 /* ContentView.swift */,
+				A17AD2B02BAD88A000DD1AB9 /* AudioPromptView.swift */,
+				A17AD2B22BAD9AE700DD1AB9 /* EditAudioView.swift */,
+				A17AD28E2BAD80C900DD1AB9 /* Assets.xcassets */,
+				A17AD2902BAD80C900DD1AB9 /* Preview Content */,
+			);
+			path = PromptAAC;
+			sourceTree = "<group>";
+		};
+		A17AD2902BAD80C900DD1AB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A17AD2912BAD80C900DD1AB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A17AD29B2BAD80CA00DD1AB9 /* PromptAAC Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A17AD29C2BAD80CA00DD1AB9 /* PromptAACApp.swift */,
+				A17AD29E2BAD80CA00DD1AB9 /* ContentView.swift */,
+				A17AD2A02BAD80CA00DD1AB9 /* Assets.xcassets */,
+				A17AD2A22BAD80CA00DD1AB9 /* Preview Content */,
+			);
+			path = "PromptAAC Watch App";
+			sourceTree = "<group>";
+		};
+		A17AD2A22BAD80CA00DD1AB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A17AD2A32BAD80CA00DD1AB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1B1F4672BBB06300043B995 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1B1F4682BBB06510043B995 /* Expression.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17AD2862BAD80C900DD1AB9 /* PromptAAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17AD2AB2BAD80CA00DD1AB9 /* Build configuration list for PBXNativeTarget "PromptAAC" */;
+			buildPhases = (
+				A17AD2832BAD80C900DD1AB9 /* Sources */,
+				A17AD2842BAD80C900DD1AB9 /* Frameworks */,
+				A17AD2852BAD80C900DD1AB9 /* Resources */,
+				A17AD2AA2BAD80CA00DD1AB9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17AD29A2BAD80CA00DD1AB9 /* PBXTargetDependency */,
+			);
+			name = PromptAAC;
+			productName = PromptAAC;
+			productReference = A17AD2872BAD80C900DD1AB9 /* PromptAAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17AD2962BAD80CA00DD1AB9 /* PromptAAC Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17AD2A72BAD80CA00DD1AB9 /* Build configuration list for PBXNativeTarget "PromptAAC Watch App" */;
+			buildPhases = (
+				A17AD2932BAD80CA00DD1AB9 /* Sources */,
+				A17AD2942BAD80CA00DD1AB9 /* Frameworks */,
+				A17AD2952BAD80CA00DD1AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PromptAAC Watch App";
+			productName = "PromptAAC Watch App";
+			productReference = A17AD2972BAD80CA00DD1AB9 /* PromptAAC Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17AD27F2BAD80C900DD1AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A17AD2862BAD80C900DD1AB9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A17AD2962BAD80CA00DD1AB9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A17AD2822BAD80C900DD1AB9 /* Build configuration list for PBXProject "PromptAAC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17AD27E2BAD80C900DD1AB9;
+			productRefGroup = A17AD2882BAD80C900DD1AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17AD2862BAD80C900DD1AB9 /* PromptAAC */,
+				A17AD2962BAD80CA00DD1AB9 /* PromptAAC Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17AD2852BAD80C900DD1AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17AD2922BAD80C900DD1AB9 /* Preview Assets.xcassets in Resources */,
+				A17AD28F2BAD80C900DD1AB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17AD2952BAD80CA00DD1AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17AD2A42BAD80CA00DD1AB9 /* Preview Assets.xcassets in Resources */,
+				A17AD2A12BAD80CA00DD1AB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17AD2832BAD80C900DD1AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17AD28D2BAD80C900DD1AB9 /* ContentView.swift in Sources */,
+				A17AD2B32BAD9AE700DD1AB9 /* EditAudioView.swift in Sources */,
+				A17AD28B2BAD80C900DD1AB9 /* PromptAACApp.swift in Sources */,
+				A17AD2B12BAD88A000DD1AB9 /* AudioPromptView.swift in Sources */,
+				A1B1F4692BBB06510043B995 /* Expression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17AD2932BAD80CA00DD1AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17AD29F2BAD80CA00DD1AB9 /* ContentView.swift in Sources */,
+				A17AD29D2BAD80CA00DD1AB9 /* PromptAACApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17AD29A2BAD80CA00DD1AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17AD2962BAD80CA00DD1AB9 /* PromptAAC Watch App */;
+			targetProxy = A17AD2992BAD80CA00DD1AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A17AD2A52BAD80CA00DD1AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17AD2A62BAD80CA00DD1AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A17AD2A82BAD80CA00DD1AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PromptAAC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptAAC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.humphreycurtis.PromptAAC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PromptAAC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A17AD2A92BAD80CA00DD1AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PromptAAC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptAAC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.humphreycurtis.PromptAAC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PromptAAC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A17AD2AC2BAD80CA00DD1AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PromptAAC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptAAC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PromptAAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17AD2AD2BAD80CA00DD1AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PromptAAC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptAAC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PromptAAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17AD2822BAD80C900DD1AB9 /* Build configuration list for PBXProject "PromptAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17AD2A52BAD80CA00DD1AB9 /* Debug */,
+				A17AD2A62BAD80CA00DD1AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17AD2A72BAD80CA00DD1AB9 /* Build configuration list for PBXNativeTarget "PromptAAC Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17AD2A82BAD80CA00DD1AB9 /* Debug */,
+				A17AD2A92BAD80CA00DD1AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17AD2AB2BAD80CA00DD1AB9 /* Build configuration list for PBXNativeTarget "PromptAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17AD2AC2BAD80CA00DD1AB9 /* Debug */,
+				A17AD2AD2BAD80CA00DD1AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17AD27F2BAD80C900DD1AB9 /* Project object */;
+}
